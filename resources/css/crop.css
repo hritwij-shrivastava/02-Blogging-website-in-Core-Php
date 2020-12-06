@@ -1,0 +1,45 @@
+
+label.cabinet{
+	display: block;
+	cursor: pointer;
+}
+
+label.cabinet input.file{
+	position: relative;
+	height: 100%;
+	width: auto;
+	opacity: 0;
+	-moz-opacity: 0;
+  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+  margin-top:-30px;
+}
+
+#upload-demo{
+  position: relative;
+	width: 350px;
+	height: 300px;
+  padding-bottom:25px;
+}
+figure figcaption {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    text-shadow: 0 0 10px #000;
+}
+.pic_area{
+    position: relative;
+    bottom: 0;
+    width: 500px;
+    margin: 0 auto;
+}
+@media screen and (max-width:700px){
+  #upload-demo{
+    width: 300px;
+    height: 350px;
+    padding-bottom:25px;
+  }
+
+}

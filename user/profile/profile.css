@@ -1,0 +1,310 @@
+
+  #content {
+  padding: 0px;
+  padding-top: 100px;
+  margin-top: 100px;
+  height: 91%;
+  transition: all 0.3s;
+  position: fixed;
+  overflow: hidden;
+  overflow-y: auto;
+  }
+  #content.content-shift{
+  left: 0px;
+  }
+  .blank-space{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    align-items: center;
+    text-align: center;
+    top: 50px;
+    background-image: url('../../resources/images/ab.jpg');
+    background-repeat: no-repeat;
+    background-position: -10px;
+    background-position-y:-350px;
+    background-color: #2C3E4C;
+    overflow: hidden;
+    overflow-y: auto;
+    margin: 0 auto;
+  }
+  .message-area{
+    text-align: center;
+    background-image: url("../../resources/images/logo2.png");
+    background-position: 30px 40px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-color: white;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    position: relative;
+    width:650px;
+    height:550px;
+    margin-top: 40px !important;
+    margin: 0 auto;
+  }
+  .yellowcircle{
+    border-radius: 0px 0px 0px 200px;
+    background-color: yellow;
+    position: relative;
+    top: 0px;
+    right:-450px;
+    width: 200px;
+    height: 200px;
+  }
+  .yellocircle2{
+    background-color: yellow;
+    position: relative;
+    top: 60px;
+    right: 233px;
+    width: 433px;
+    height: 433px;
+    clip-path: circle(40.4% at 78% 59%);
+  }
+  .greencircle{
+    background-color: green;
+    position: relative;
+    clip-path: circle(47.1% at 74% 50%);
+    top: -400px;
+    right: 250px;
+    width: 450px;
+    height: 450px;
+  }
+  .imgarea {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 130px -15px;
+    background-size: 350px 450px;
+    position: relative;
+    clip-path: circle(47.1% at 74% 50%);
+    top: 10px;
+    right: 1px;
+    width: 451px;
+    height: 430px;
+    }
+    .whitearea {
+      border-radius: 0px 510px 0px 0px;
+      background-color: white;
+      position: relative;
+      top: -765px;
+      left: -450px;
+      width: 510px;
+      height: 430px;
+      }
+      
+  #img {
+    border-radius: 0px 490px 0px 0px;
+    background-color: #2c3e4c;
+    position: relative;
+    top: 17px;
+    left: 0px;
+    width: 490px;
+    height: 415px;
+    } 
+    #img h1{
+  
+    text-align: left;
+    }
+    #white_name{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    color: white;
+    }
+    #title_name{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    /* font-weight: 5px;
+    font-size: 35px; */
+    color: yellow;
+    }
+    #founder{
+    position: absolute;
+    font-size: 16px;
+    font-weight: 5px;
+    top: 250px;
+    left: 25px;
+    }
+    #founderOF{
+    position: absolute;
+    font-size: 16px;
+    font-weight: 5px;
+    top: 270px;
+    left: 30px;
+    }
+    #cme{
+    position: absolute;
+    font-size: 12px;
+    font-weight: 5px;
+    top: 358px;
+    left: 60px;
+    color: white;
+    }
+    #mobno{
+    position: absolute;
+    font-size: 12px;
+    font-weight: 5px;
+    top: 375px;
+    left: 60px;
+    color: white;
+    }
+    .the{
+    color: white;
+    }
+    .finalcircle{
+    border-radius: 130px;
+    background-color: yellow;
+    position: relative;
+    top: 130px;
+    left: 360px;
+    width: 130px;
+    height: 130px;
+    }
+    #ons{
+    position: absolute;
+    font-size: 18px;
+    font-weight: bolder;
+    top: 70px;
+    left: 12px;
+    color: black;
+    }
+    #meem{
+    position: absolute;
+    font-size: 18px;
+    font-weight: bolder;
+    top: 40px;
+    left: 25px;
+    color: black;
+    }
+    #landline{
+      width: 55px; 
+      position: absolute; 
+      top: 349px; 
+      left: 10px; 
+    }
+  
+    .testme{
+      max-height: 500px !important;
+    }
+    .preview {
+      overflow: hidden;
+      width: 160px; 
+      height: 160px;
+      margin: 10px;
+      border: 1px solid red;
+    }
+    .modal-lg{
+      max-width: 1000px !important;
+    }
+  @media screen and (max-width: 700px)
+  {
+  
+  #content {
+  width: 100%;
+  position: fixed;
+  top: 70px;
+
+  }
+  #content.content-shift{
+  left:0;		
+  }
+  .whitearea{
+    background-color: tomato;
+    top: -395px;
+    left: -168.5px;
+    width: 220px;
+    height: 230px;
+  }
+  #img{
+    top: 10px;
+    left: -1px;
+    width: 210px;
+    height: 220px;
+  }
+  #white_name{
+    font-size: 20px;
+    top: 30px;
+    left: 15px;
+    }
+    #title_name{
+    font-size: 20px;
+    top: 65px;
+    left: 15px;
+    }
+    #founder{
+    font-size: 10px;
+    font-weight: 5px;
+    top: 120px;
+    left: 15px;
+    }
+    #founderOF{
+    font-size: 10px;
+    font-weight: 5px;
+    top: 135px;
+    left: 15px;
+    }
+    #cme{
+    font-size: 8px;
+    top: 180px;
+    left: 40px;
+    }
+    #mobno{
+    font-size: 8px;
+    top: 190px;
+    left: 40px;
+    }
+    #landline{
+    width: 35px; 
+    top: 175px; 
+    left: 6px; 
+    }
+    .finalcircle{
+    border-radius: 70px;
+    top: 65px;
+    left: 155px;
+    width: 70px;
+    height: 70px;
+    }
+    #meem{
+    font-size: 10px;
+    font-weight: bolder;
+    top: 20px;
+    left: 12px;
+    }
+    #ons{
+    font-size: 10px;
+    font-weight: bolder;
+    top: 40px;
+    left: 6px;
+    }
+    .yellowcircle {
+    border-radius: 0px 0px 0px 160px;
+    top: 0px;
+    right: -169px;
+    width: 160px;
+    height: 160px;
+    }
+  
+  .yellocircle2 {
+      top: 60px;
+      right: 140px;
+      width: 300px;
+      height: 300px;
+  }
+    .greencircle {
+    top: -215px;
+    right: 103px;
+    width: 265px;
+    height: 265px;
+    }
+    .imgarea{
+    background-position: 65px 6px;
+    background-size: 190px 260px;
+    background-repeat: no-repeat;
+    top: 7px;
+    right: -10px;
+    width: 255px;
+    height: 250px;
+    }
+  }
+

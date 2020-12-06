@@ -1,0 +1,30 @@
+.dipikablog1{
+    background-image: url('../../resources/images/dipikablog1.jpg');
+    background-position: -400px -800px;
+}
+.dipikablog2{
+    background-image: url('../../resources/images/dipikablog2.jpg');
+    background-position: 400px -800px;
+}
+.dipikablog3{
+    background-image: url('../../resources/images/dipikablog3.jpg');
+    background-position:center; 
+    background-size: cover;
+}
+.dipikablog4{
+    background-image: url('../../resources/images/dipikablog4.jpg');
+    background-position: -437px 0px;
+}
+.dipikablog5{
+    background-image: url('../../resources/images/dipikablog5.jpg');
+    background-position: -400px -800px;
+}
+.dipikablog6{
+    background-image: url('../../resources/images/dipikablog6.jpg');
+    background-size: contain;
+    background-position: -345px -450px
+}
+.dipikablog7{
+    background-image: url('../../resources/images/dipikablog7.jpg');
+    background-position: 0px 0px
+}
